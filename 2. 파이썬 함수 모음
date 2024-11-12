@@ -1,0 +1,7 @@
+# path : path(route, view, kwargs, name) 형태로 호출
+#         - route : 주소 의미
+#         - view : route의 주소로 접근했을 때 호출할 뷰
+#         - kwargs : 뷰에 전달할 값
+#         - name : route 이름 의미,
+#             polls폴더의 수동 생성 파일인 urls.py는 앱의 라우팅만을 담당
+#             프로젝트의 메인 urls.py 파일에서 연결을 해주어야 정상 동작함
